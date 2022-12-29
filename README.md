@@ -28,11 +28,11 @@ Users should be able to:
 
 #### Mobile version:
 
-![screenshot-2022-12-29-120854](https://user-images.githubusercontent.com/99555654/209929692-337b48ea-2b20-436e-9f07-98bcc9ee7450.jpg)
+![screenshot-2022-12-29-125921](https://user-images.githubusercontent.com/99555654/209936502-6144cf3e-3542-493c-9d3e-b0dbbfcac999.jpg)
 
 #### Desktop version:
 
-![screenshot-2022-12-29-120448](https://user-images.githubusercontent.com/99555654/209929721-4c8b7b54-2fce-4a0b-a109-c700c625a52c.jpg)
+![screenshot-2022-12-29-125905](https://user-images.githubusercontent.com/99555654/209936478-21308f3a-3e88-4100-847a-c6694ee5d225.jpg)
 
 ### Links
 
