@@ -19,7 +19,7 @@ h2, h4, p {
 #card {
     box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.75);
     border-radius: 5px;
-    /* overflow: hidden; */
+    overflow: hidden;
     margin: auto;
     margin-bottom: 15px;
 }
@@ -125,13 +125,6 @@ ul {
 li {
     margin-top: 5px;
 }
-
-/* @media (max-width: 650px) {
-    #SW, #SE, #S, #card {
-        width: 100%;
-        height: auto;
-    }
-} */
 
 @media (min-width: 610px) {
     #card {
