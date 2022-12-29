@@ -20,28 +20,29 @@ h2, h4, p {
     box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.75);
     border-radius: 5px;
     overflow: hidden;
-    margin: auto;
     margin-bottom: 15px;
 }
 
 #N {
     width: 100%;
     height: 45%;
-    padding: 25px;
+    padding: 40px;
 }
 
 #N h2 {
     color: #2ab2af;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 #N h4 {
     color: #c0df34;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 #N p {
     color: #98a6bd;
+    margin-bottom: 5px;
+    line-height: 1.6;
 }
 
 #S {
@@ -55,34 +56,31 @@ h2, h4, p {
 #SW {
     height: 100%;
     background-color: #26a09d;
-    padding: 20px;
+    padding: 40px;
     flex-basis: 50%;
 }
 
 #SE {
     height: 100%;
     background-color: #2ab2af;
-    padding: 20px;
+    padding: 40px;
     flex-basis: 50%;
 }
 
 #SW h4 {
-    margin-bottom: 25px;
-}
-
-#price-amount, #per-month {
-    display: inline-block;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
 }
 
 #price-amount {
     font-weight: 700;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
 }
 
 #per-month {
-    font-size: 0.8rem;
+    font-size: 0.95rem;
     opacity: 0.7;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 #price-cont {
@@ -92,21 +90,19 @@ h2, h4, p {
 }
 
 #SW p {
-    font-size: 0.8rem;
-    margin-bottom: 50px;
-}
-
-#SE > * {
-    margin-left: 10px;
+    font-size: 0.95rem;
+    margin-bottom: 35px;
 }
 
 #sign-up {
     color: white;
     background-color: #c0df34;
     border: none;
-    padding: 10px;
+    padding: 15px;
     width: 100%;
     border-radius: 5px;
+    font-weight: 700;
+    font-size: 1.05rem;
 }
 
 #sign-up:hover {
@@ -115,21 +111,38 @@ h2, h4, p {
     transform: scale(1.02);
 }
 
+#SE h4 {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
 ul {
     padding: 0;
     list-style: none;
-    font-size: 0.8rem;
     opacity: 0.8;
 }
 
 li {
     margin-top: 5px;
+    font-size: 0.85rem;
 }
 
-@media (min-width: 610px) {
+@media (min-width: 685px) {
     #card {
-        width: 550px;
-        height: 400px;
+        width: 630px;
+        height: 470px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -235px;
+        margin-left: -315px;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        margin-bottom: 15px;
     }
 
     #S {
