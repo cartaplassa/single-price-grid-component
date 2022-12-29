@@ -1,75 +1,80 @@
 html {
     box-sizing: border-box;
     font-family: 'Karla';
-    font-size: 16px;
+    font-size: 1.6vh;
 }
 
 body {
-    padding: 20px;
+    padding: 2em;
 }
 
-h2, h4, p {
+h1, h2, p {
     margin: 0;
+}
+
+h1 {
+    font-size: 1.4rem;
+}
+
+h2 {
+    font-size: 1.2rem;
 }
 
 *, *:before, *:after {
     box-sizing: inherit;
 }
 
-#card {
-    box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.75);
-    border-radius: 5px;
+main {
+    box-shadow: 0 0 4rem 0 rgba(0,0,0,0.25);
+    border-radius: 0.5em;
     overflow: hidden;
-    margin-bottom: 15px;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
 }
 
 #N {
     width: 100%;
-    height: 45%;
-    padding: 40px;
+    padding: 2.5em;
+}
+
+#N h1 {
+    color: #2ab2af;
+    margin-bottom: 1em;
 }
 
 #N h2 {
-    color: #2ab2af;
-    margin-bottom: 25px;
-}
-
-#N h4 {
     color: #c0df34;
-    margin-bottom: 15px;
+    margin-bottom: 0.7em;
 }
 
 #N p {
     color: #98a6bd;
-    margin-bottom: 5px;
     line-height: 1.6;
 }
 
 #S {
+    flex: 1;
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 55%;
     color: white;
 }
 
 #SW {
-    height: 100%;
-    background-color: #26a09d;
-    padding: 40px;
+    background-color: #2ab2af;
+    padding: 2.5rem;
     flex-basis: 50%;
 }
 
 #SE {
-    height: 100%;
-    background-color: #2ab2af;
-    padding: 40px;
+    background-color: #2EBFBD;
+    padding: 2.5rem;
     flex-basis: 50%;
 }
 
-#SW h4 {
+#SW h2 {
     font-size: 1.1rem;
-    margin-bottom: 20px;
+    margin-bottom: 1em;
 }
 
 #price-amount {
@@ -80,29 +85,31 @@ h2, h4, p {
 #per-month {
     font-size: 0.95rem;
     opacity: 0.7;
-    margin-left: 10px;
+    margin-left: 0.8em;
 }
 
 #price-cont {
-    margin-bottom: 10px;
+    margin-bottom: 0.5em;
     display: flex;
     align-items: center;
 }
 
 #SW p {
     font-size: 0.95rem;
-    margin-bottom: 35px;
+    margin-bottom: 2em;
 }
 
 #sign-up {
     color: white;
     background-color: #c0df34;
     border: none;
-    padding: 15px;
+    padding: 1em;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 0.3em;
     font-weight: 700;
     font-size: 1.05rem;
+    position: relative;
+    bottom: 0;
 }
 
 #sign-up:hover {
@@ -111,41 +118,45 @@ h2, h4, p {
     transform: scale(1.02);
 }
 
-#SE h4 {
+#SE h2 {
     font-size: 1.1rem;
-    margin-bottom: 20px;
+    margin-bottom: 1.5em;
 }
 
 ul {
     padding: 0;
     list-style: none;
     opacity: 0.8;
+    margin: 0 0 0 0;
 }
 
 li {
-    margin-top: 5px;
     font-size: 0.85rem;
+    margin-top: 0.4em;
 }
 
-@media (min-width: 685px) {
-    #card {
-        width: 630px;
-        height: 470px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-top: -235px;
-        margin-left: -315px;
+@media (min-width: 71vh) {
+    body {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main {
+        width: 64vh;
+        height: 48vh;
     }
 
     footer {
         position: absolute;
         bottom: 0;
         width: 100%;
-        margin-bottom: 15px;
+        margin-bottom: 1em;
     }
 
     #S {
         flex-direction: row;
+        align-items: stretch;
     }
 }
