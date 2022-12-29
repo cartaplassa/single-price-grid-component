@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: WIP
-- Live Site URL: https://zarni-ein.github.io/single-price-grid-component/
+- [Solution URL](https://www.frontendmentor.io/solutions/single-price-grid-component-KJb4gL9yh7) | 
+[Live Site URL](https://zarni-ein.github.io/single-price-grid-component/)
 
 ## My process
 
